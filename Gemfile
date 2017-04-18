@@ -24,6 +24,18 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'faker'
+# Use for better errors
+gem 'responders'
+# Use for auto-generating stringified JSON
+gem 'active_model_serializers'
+# Use for html templates in asset pipeline
+gem 'angular-rails-templates'
+# Use Devicon for code language icons
+gem 'devicon-rails'
+
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise"
+end
 
 
 group :development, :test do
