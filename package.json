@@ -1,0 +1,15 @@
+{
+  "name": "rookwood-rails",
+  "version": "1.0.0",
+  "description": "Rails/AngularJS mockup of local business",
+  "main": "index.js",
+  "repository": "https://github.com/mcasciato/rookwood-rails",
+  "author": "mcasciato <michael.casciato@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "^3.3.7",
+    "tether": "^1.4.0"
+  }
+}
